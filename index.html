@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Dave | Cyberpunk Edition</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg"></canvas>
+
+  <!-- Navigasi -->
+  <nav class="cyber-nav">
+    <ul>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#pendidikan">Pendidikan</a></li>
+      <li><a href="#hobi">Hobi</a></li>
+      <li><a href="#jadwal">Jadwal</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+      <li><a href="#jam-digital">Jam</a></li>
+      <li><a href="#mengenal">Mengenal Web</a></li>
+      <li><a href="#videohtml">Video HTML</a></li> <!-- 🔥 Navigasi baru -->
+      <li><a href="#tatacara">Tata Cara</a></li>
+      <li><a href="#kesanpesan">Kesan & Pesan</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="header-profil">
+    <figure>
+      <img src="./img/profil.jpg" alt="Foto Profil Dave" class="profil-animasi">
+      <figcaption><strong>David Jonathan Simanjuntak</strong></figcaption>
+    </figure>
+  </header>
+
+  <main>
+    <!-- Tentang Saya -->
+    <article id="about" class="section-card neon-card">
+      <h2>Tentang Saya</h2>
+      <p>Halo! Aku <strong>David Jonathan Simanjuntak</strong>, biasa dipanggil <b>Dave</b>. 
+      Aku berasal dari <b>Medan</b> dan sekarang sedang menempuh pendidikan di <b>Universitas Sumatera Utara</b> 
+      jurusan <b>Ilmu Komputer</b>.</p>
+    </article>
+
+    <!-- Pendidikan -->
+    <article id="pendidikan" class="section-card neon-card">
+      <h2>Riwayat Pendidikan</h2>
+      <ul class="edu-list">
+        <li>📘 SD : SD Santo Thomas 2 Medan</li>
+        <li>📗 SMP : SMPN 18 Medan</li>
+        <li>📕 SMA : SMK Telkom Sandhy Putra Medan</li>
+        <li>🎓 Universitas : Universitas Sumatera Utara - S1 Ilmu Komputer</li>
+      </ul>
+    </article>
+
+    <!-- Hobi -->
+    <article id="hobi" class="section-card neon-card">
+      <h2>Hobi</h2>
+      <p>Beberapa hobiku adalah <b>fotografi</b>, <b>running</b>, <b>design</b>, dan <b>bernyanyi</b>.</p>
+      <div class="hobi-gallery">
+        <img src="./img/foto1.jpg" alt="Fotografi" class="foto-hobi">
+        <img src="./img/foto2.jpg" alt="Running" class="foto-hobi">
+        <img src="./img/foto3.jpg" alt="Design" class="foto-hobi">
+        <img src="./img/foto4.jpg" alt="Bernyanyi" class="foto-hobi">
+      </div>
+      <blockquote class="motto">“Ora et Labora”</blockquote>
+    </article>
+
+    <!-- Jadwal -->
+    <article id="jadwal" class="section-card neon-card">
+      <h2>Jadwal Kuliah</h2>
+      <table>
+        <thead>
+          <tr><th>Hari</th><th>Mata Kuliah</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Senin</td><td>LAB Pemweb (10.30-12.10), LAB Basdat (13.50-15.30)</td></tr>
+          <tr><td>Selasa</td><td>LAB Struktur Data (10.30-12.10), MKWU (13.00-15.30)</td></tr>
+          <tr><td>Rabu</td><td>Pemweb (08.00-10.30), Basdat (14.40-17.10)</td></tr>
+          <tr><td>Kamis</td><td>Etika Profesi (08.00-10.30), KCB (13.00-15.30)</td></tr>
+          <tr><td>Jumat</td><td>WIRDI (08.00-09.40), Struktur Data (13.50-16.20)</td></tr>
+        </tbody>
+      </table>
+    </article>
+
+    <!-- Kontak -->
+    <aside id="kontak" class="section-card neon-card">
+      <h2>Hubungi Saya</h2>
+      <ul>
+        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:davidjonaths@gmail.com">davidjonaths@gmail.com</a></li>
+        <li><i class="fa-solid fa-phone"></i> <a href="tel:089613610568">0896-1361-0568</a></li>
+        <li><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/davidjonathh" target="_blank">@davidjonathh</a></li>
+      </ul>
+    </aside>
+
+    <!-- Jam -->
+    <section id="jam-digital" class="section-card neon-card">
+      <h2>Jam Digital</h2>
+      <div id="clock"></div>
+    </section>
+
+    <!-- 🔥 FITUR BARU 🔥 -->
+
+    <!-- 1. Mengenal HTML, CSS, JS, Tailwind -->
+    <section id="mengenal" class="section-card neon-card">
+      <h2>Mengenal HTML, CSS, JavaScript & Tailwind</h2>
+      <p><strong>HTML</strong> (HyperText Markup Language) digunakan untuk membuat struktur halaman web.</p>
+      <p><strong>CSS</strong> (Cascading Style Sheets) berfungsi untuk mempercantik tampilan dengan warna, layout, dan efek.</p>
+      <p><strong>JavaScript</strong> menambahkan interaktivitas seperti tombol, animasi, dan fungsi dinamis.</p>
+      <p><strong>Tailwind CSS</strong> adalah framework CSS modern berbasis utility-class yang mempercepat proses desain web.</p>
+    </section>
+
+    <!-- 1.5 Video Penjelasan HTML -->
+    <section id="videohtml" class="section-card neon-card">
+      <h2>Video Penjelasan HTML</h2>
+      <p>Berikut video penjelasan singkat tentang pengertian HTML:</p>
+      <video controls width="70%" style="border-radius:15px; border:2px solid var(--neon-blue); box-shadow:0 0 20px rgba(0,255,255,0.3);">
+        <source src="./vid/pengertian.mp4" type="video/mp4">
+        Browser Anda tidak mendukung pemutaran video.
+      </video>
+    </section>
+
+    <!-- 2. Tata Cara Membuat Website Sederhana -->
+    <section id="tatacara" class="section-card neon-card">
+      <h2>Tata Cara Membuat Website Sederhana</h2>
+      <ol style="text-align:left; max-width:600px; margin:auto;">
+        <li>Buka editor seperti VS Code.</li>
+        <li>Buat file <code>index.html</code>, <code>style.css</code>, dan <code>script.js</code>.</li>
+        <li>Tulis struktur dasar HTML.</li>
+        <li>Hubungkan CSS dan JS ke HTML menggunakan tag <code>&lt;link&gt;</code> dan <code>&lt;script&gt;</code>.</li>
+        <li>Simpan file, lalu buka di browser untuk melihat hasilnya.</li>
+      </ol>
+    </section>
+
+    <!-- 3. Kesan dan Pesan -->
+    <section id="kesanpesan" class="section-card neon-card">
+      <h2>Kesan dan Pesan Belajar Pemrograman Web</h2>
+      <p>Kesan saya belajar pemrograman web sangat menyenangkan! Saya jadi tahu cara membuat halaman menarik dan interaktif dari nol.</p>
+      <p>Pesan saya, jangan takut mencoba. Mulailah dari hal sederhana, lalu kembangkan kreativitasmu untuk membuat website yang keren!</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 David Jonathan Simanjuntak | Ilmu Komputer USU</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
